@@ -5,11 +5,11 @@ Going over the pytest framework
 `pytest`
 - Used for running the testing framework for all files that either begin or end with the word "test".
 
-### Calling Specific Tests
+#### Calling Specific Tests
 `pytest <filename>.py`
 - Will run all tests within said filename.
 
-### Tags
+#### Tags
 `pytest -v`
 - Verbose, the testing suite will print the results with added info.
 
@@ -37,11 +37,11 @@ markers =
   <marker2>: <description of marker>
 ```
 
-### Decalaring Markers
+#### Decalaring Markers
 `@pytest.mark.<custom marker name>`
 - Creates a new custom marker, must also be written in the pytest.ini file.
 
-### Preset Markers
+#### Preset Markers
 `@pytest.mark.parametrize(<strNames>, <vars>)`
 - Allows users to send multiple input values to extensively test something.
 

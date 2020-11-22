@@ -32,6 +32,7 @@ Going over the pytest framework
 
 ## Markers
 - All custom markers must be listed in pytest.ini file in the following format:
+
 `[pytest]
 markers = 
   <marker1>: <description of marker>

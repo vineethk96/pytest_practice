@@ -29,6 +29,7 @@ Going over the pytest framework
 - Outputs the test results into an xml file.
 
 ## Markers
+- These go right above the associated function.
 
 #### Decalaring Markers
 `@pytest.mark.<custom marker name>`
